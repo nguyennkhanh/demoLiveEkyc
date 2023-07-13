@@ -1,0 +1,2757 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeadPoseFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "HeadPoseFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReceiverResultDelegate",
+        "printedName": "ReceiverResultDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "receiverResult",
+            "printedName": "receiverResult(isSuccess:filePath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HeadPoseFramework@objc(pl)ReceiverResultDelegate(im)receiverResultWithIsSuccess:filePath:",
+            "mangledName": "$s17HeadPoseFramework22ReceiverResultDelegateP08receiverE09isSuccess8filePathySb_SStF",
+            "moduleName": "HeadPoseFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HeadPoseFramework.ReceiverResultDelegate>",
+            "sugared_genericSig": "<Self where Self : HeadPoseFramework.ReceiverResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@HeadPoseFramework@objc(pl)ReceiverResultDelegate",
+        "mangledName": "$s17HeadPoseFramework22ReceiverResultDelegateP",
+        "moduleName": "HeadPoseFramework",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DynoEkycView",
+        "printedName": "DynoEkycView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "normalString",
+            "printedName": "normalString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC12normalStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12normalStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12normalStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12normalStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12normalStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12normalStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12normalStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12normalStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "blinkString",
+            "printedName": "blinkString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC11blinkStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC11blinkStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC11blinkStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC11blinkStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC11blinkStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC11blinkStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC11blinkStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC11blinkStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceUpString",
+            "printedName": "faceUpString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC12faceUpStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceDownString",
+            "printedName": "faceDownString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceDownStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceLeftString",
+            "printedName": "faceLeftString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14faceLeftStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceRightString",
+            "printedName": "faceRightString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC15faceRightStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlConfig",
+            "printedName": "urlConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC9urlConfigSSSgvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initString",
+            "printedName": "initString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC10initStringSSvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC10initStringSSvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC10initStringSSvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC10initStringSSvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC10initStringSSvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC10initStringSSvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC10initStringSSvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC10initStringSSvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sesstionToken",
+            "printedName": "sesstionToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC13sesstionTokenSSSgvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "receiverResultDelegate",
+            "printedName": "receiverResultDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HeadPoseFramework.ReceiverResultDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReceiverResultDelegate",
+                    "printedName": "HeadPoseFramework.ReceiverResultDelegate",
+                    "usr": "c:@M@HeadPoseFramework@objc(pl)ReceiverResultDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HeadPoseFramework.ReceiverResultDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiverResultDelegate",
+                        "printedName": "HeadPoseFramework.ReceiverResultDelegate",
+                        "usr": "c:@M@HeadPoseFramework@objc(pl)ReceiverResultDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HeadPoseFramework.ReceiverResultDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReceiverResultDelegate",
+                        "printedName": "HeadPoseFramework.ReceiverResultDelegate",
+                        "usr": "c:@M@HeadPoseFramework@objc(pl)ReceiverResultDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC22receiverResultDelegateAA08ReceiverhI0_pSgvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ratio",
+            "printedName": "ratio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17HeadPoseFramework12DynoEkycViewC5ratio14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC5ratio12CoreGraphics7CGFloatVvp",
+            "moduleName": "HeadPoseFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC5ratio14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC5ratio12CoreGraphics7CGFloatVvg",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC5ratio14CoreFoundation7CGFloatVvs",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC5ratio12CoreGraphics7CGFloatVvs",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17HeadPoseFramework12DynoEkycViewC5ratio14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s17HeadPoseFramework12DynoEkycViewC5ratio12CoreGraphics7CGFloatVvM",
+                "moduleName": "HeadPoseFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynoEkycView",
+                "printedName": "HeadPoseFramework.DynoEkycView",
+                "usr": "c:@M@HeadPoseFramework@objc(cs)DynoEkycView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HeadPoseFramework@objc(cs)DynoEkycView(im)initWithFrame:",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HeadPoseFramework",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HeadPoseFramework@objc(cs)DynoEkycView(im)layoutSubviews",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC14layoutSubviewsyyF",
+            "moduleName": "HeadPoseFramework",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HeadPoseFramework@objc(cs)DynoEkycView(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s17HeadPoseFramework12DynoEkycViewC13captureOutput_03didH04fromySo09AVCaptureH0C_So17CMSampleBufferRefaSo0K10ConnectionCtF",
+            "moduleName": "HeadPoseFramework",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HeadPoseFramework@objc(cs)DynoEkycView",
+        "mangledName": "$s17HeadPoseFramework12DynoEkycViewC",
+        "moduleName": "HeadPoseFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeadPoseFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "HeadPoseFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DynoDetectFaceDelegate",
+        "printedName": "DynoDetectFaceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "receiverDetectFace",
+            "printedName": "receiverDetectFace(image:bboxs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableArray",
+                "printedName": "Foundation.NSMutableArray",
+                "usr": "c:objc(cs)NSMutableArray"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17HeadPoseFramework22DynoDetectFaceDelegateP08receivereF05image5bboxsySo7UIImageC_So14NSMutableArrayCtF",
+            "mangledName": "$s17HeadPoseFramework22DynoDetectFaceDelegateP08receivereF05image5bboxsySo7UIImageC_So14NSMutableArrayCtF",
+            "moduleName": "HeadPoseFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : HeadPoseFramework.DynoDetectFaceDelegate>",
+            "sugared_genericSig": "<Self where Self : HeadPoseFramework.DynoDetectFaceDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17HeadPoseFramework22DynoDetectFaceDelegateP",
+        "mangledName": "$s17HeadPoseFramework22DynoDetectFaceDelegateP",
+        "moduleName": "HeadPoseFramework",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeadPoseFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "0xDD"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1532,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1545,
+      "length": 4,
+      "value": "0x58"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1550,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1564,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 4,
+      "value": "0xDD"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1605,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1619,
+      "length": 4,
+      "value": "0xDD"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1624,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1637,
+      "length": 4,
+      "value": "0xDD"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1642,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2052,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2085,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2113,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2348,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2390,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2427,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2565,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2688,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2732,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2811,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2881,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2922,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2961,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3010,
+      "length": 8,
+      "value": "\"Normal\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3053,
+      "length": 7,
+      "value": "\"Blink\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3096,
+      "length": 9,
+      "value": "\"Face up\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3143,
+      "length": 11,
+      "value": "\"Face down\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3192,
+      "length": 11,
+      "value": "\"Face Left\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3242,
+      "length": 12,
+      "value": "\"Face Right\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3543,
+      "length": 14,
+      "value": "\"ret = \""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3587,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3636,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3714,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3776,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 3949,
+      "length": 21,
+      "value": "\"Move face to camera\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 4383,
+      "length": 14,
+      "value": "\"ret = \""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 4396,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4427,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4476,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4554,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 4847,
+      "length": 7,
+      "value": "\"test4\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 5082,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4996,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6026,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 6181,
+      "length": 14,
+      "value": "\"DynoEkycView\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 6547,
+      "length": 4,
+      "value": "0.01"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6677,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6714,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6751,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 6903,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 6930,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 6957,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 7021,
+      "length": 10,
+      "value": "\"ic_arrow\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7104,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 7196,
+      "length": 10,
+      "value": "\"ic_arrow\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7281,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7310,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 7374,
+      "length": 10,
+      "value": "\"ic_arrow\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7482,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 7547,
+      "length": 10,
+      "value": "\"ic_arrow\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7584,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7727,
+      "length": 5,
+      "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7801,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8364,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8504,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8741,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8821,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8899,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8979,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 9048,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9137,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 9368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 9399,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9430,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 9510,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9541,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9675,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 9892,
+      "length": 9,
+      "value": "\"ic_tick\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9929,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9959,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10026,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10193,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 10482,
+      "length": 10,
+      "value": "\"ic_close\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10557,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10647,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10687,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10869,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11004,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 11127,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 11802,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11973,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 12020,
+      "length": 21,
+      "value": "\"error when jpegData\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 12253,
+      "length": 22,
+      "value": "\"error when save file\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 12369,
+      "length": 14,
+      "value": "\"portrait.png\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12553,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12648,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12727,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12939,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 12966,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13025,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 13185,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13373,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 13400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14378,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14397,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14469,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 14504,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14546,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15015,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 15691,
+      "length": 22,
+      "value": "\"VideoDataOutputQueue\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16303,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17150,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17441,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17577,
+      "length": 9,
+      "value": "\"isBlink\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17629,
+      "length": 10,
+      "value": "\"headPose\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17678,
+      "length": 5,
+      "value": "\"top\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17725,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17773,
+      "length": 6,
+      "value": "\"left\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "StringLiteral",
+      "offset": 17820,
+      "length": 7,
+      "value": "\"right\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18155,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18345,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18546,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19093,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19162,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20112,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20173,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20234,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20891,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 20897,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20932,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20964,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 20970,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21004,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 21010,
+      "length": 4,
+      "value": "0.85"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21042,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 21048,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21083,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 21089,
+      "length": 4,
+      "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21122,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 21128,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21161,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "FloatLiteral",
+      "offset": 21167,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21399,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21514,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 814,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 20,
+      "value": "\"DynoEkycDetectFace\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2696,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "StringLiteral",
+      "offset": 2757,
+      "length": 22,
+      "value": "\"VideoDataOutputQueue\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3093,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4182,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/DynoEkycDetectFace.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4462,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/FrameworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/FrameworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/FrameworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/FrameworkUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hungnx\/Documents\/iOS_project\/head_pose_ios_library\/HeadPoseFramework\/HeadPoseFramework\/FrameworkUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 2356,
+      "length": 6,
+      "value": "1000.0"
+    }
+  ]
+}

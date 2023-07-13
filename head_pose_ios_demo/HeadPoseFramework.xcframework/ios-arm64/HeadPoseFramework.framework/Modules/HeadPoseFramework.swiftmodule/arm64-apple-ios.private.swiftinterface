@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name HeadPoseFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+@_exported import HeadPoseFramework
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol ReceiverResultDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func receiverResult(isSuccess: Swift.Bool, filePath: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DynoEkycView : UIKit.UIView, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) open var normalString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var blinkString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var faceUpString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var faceDownString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var faceLeftString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var faceRightString: Swift.String
+  @_Concurrency.MainActor(unsafe) open var urlConfig: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var initString: Swift.String {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var sesstionToken: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) open var receiverResultDelegate: (any HeadPoseFramework.ReceiverResultDelegate)?
+  @_Concurrency.MainActor(unsafe) open var ratio: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc deinit
+}
+public protocol DynoDetectFaceDelegate : ObjectiveC.NSObjectProtocol {
+  func receiverDetectFace(image: UIKit.UIImage, bboxs: Foundation.NSMutableArray)
+}
