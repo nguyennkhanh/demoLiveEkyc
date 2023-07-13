@@ -1,0 +1,11 @@
+framework module HeadPoseFramework {
+  umbrella header "HeadPoseFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HeadPoseFramework.Swift {
+  header "HeadPoseFramework-Swift.h"
+  requires objc
+}
